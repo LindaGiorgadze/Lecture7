@@ -1,0 +1,130 @@
+body {
+  background-color: #2a3342;
+}
+
+header {
+  padding: 24px 0;
+  margin-bottom: 112px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1264px;
+  margin: 0 auto;
+}
+
+nav {
+  display: contents;
+}
+
+.menu {
+  color: #bbc3cf;
+  display: flex;
+  gap: 48px;
+}
+
+.btn {
+  font-weight: 500;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn-login {
+  color: #bbc3cf;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: transparent;
+}
+
+.btn-signup {
+  color: #f0fdf4;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 6px;
+  background: #22c55e;
+  box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+  margin-left: 8px;
+}
+
+main {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 73px;
+  margin-bottom: 100px;
+}
+
+.leftHero {
+    width: 45%;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 36px;
+  background: #22c55e;
+  box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 16px;
+}
+
+.hero .title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+}
+
+.heroText {
+  color: #8896ab;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 24px 0 32px 0;
+}
+
+.hero img {
+  width: 49%;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 30px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #f0fdf4;
+  border: 2px solid #22c55e;
+}
+.box:nth-child(2n) {
+  height: unset;
+}
+
+.contents {
+  display: contents;
+}
